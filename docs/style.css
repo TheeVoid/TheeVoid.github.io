@@ -1,0 +1,53 @@
+:root {
+	--bgcolor: #000000;
+	--fgcolor: #999999;
+	--linkcolor: #e2b903;
+	--visitedcolor: #c712df;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--bgcolor: #f0f0f0;
+		--fgcolor: #000000;
+		--linkcolor: #0000ff;
+		--visitedcolor: #ff00ff;
+	}
+}
+
+html {
+	background-color: var(--bgcolor);
+	color: var(--fgcolor);
+	max-width: 80ch;
+	padding: 2ch;
+	margin: auto;
+	margin-bottom: 2ex;
+	font-family: monospace;
+	font-size: 1.25vw;
+}
+
+a:link {
+	color: var(--linkcolor);
+}
+
+a:visited {
+	color: var(--visitedcolor);
+}
+
+dd + dt {
+	margin-top: 1em;
+}
+
+address {
+	display: block;
+	background-color: var(--bgcolor);
+	position: fixed;
+	bottom: 0;
+	width: 80ch;
+}
+
+pre > code {
+	display: block;
+	width: 80ch;
+	outline: thin solid #777777;
+	overflow: scroll;
+}
