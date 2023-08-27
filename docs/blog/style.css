@@ -2,7 +2,7 @@
 	--bgcolor: #000000;
 	--fgcolor: #999999;
 	--linkcolor: #e2b903;
-	--visitedcolor: #c712df;
+	--visitedcolor: #3fb1c0;
 }
 
 @media (prefers-color-scheme: light) {
@@ -17,13 +17,13 @@
 html {
 	background-color: var(--bgcolor);
 	color: var(--fgcolor);
-	max-width: 80ch;
-	padding: 2ch;
+	max-width: 100%;
 	margin: auto;
 	margin-bottom: 2ex;
 	font-family: monospace;
-	font-size: 1.25vw;
+	font-size: 1.25vw;	
 }
+
 
 a:link {
 	color: var(--linkcolor);
@@ -33,19 +33,68 @@ a:visited {
 	color: var(--visitedcolor);
 }
 
+section {
+	background-color: #e2b903;
+	width: auto; 
+	word-wrap: break-word;
+	padding: 1%;
+	padding-left: 2%;
+	padding-top: 3%;
+	padding-bottom: 3%;
 
-.footer {
+}
+
+body {
+	background-color: #ff00ff;
+	position: relative;
+	left: 14%;
+	margin-right:14%;
+	scroll-behavior: smooth;
+	width: auto;
+	bottom: 0%;	
+}
+#header {
+	height: 100%;
+	width: 15%;
 	position: fixed;
+	z-index: 1;
+	top: 0;
 	left: 0;
-	bottom: 0;
-	width: 100%;
-	background-color: red;
-	color: white;
-	text-align: center;
-  }
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 20px;
+	align-items: center;
+}
 
-  .footer a {
 
-	color: aquamarine;
+#header ul {
+	list-style-type: none;
+	padding: 20px;
+}
 
-  }
+#header ul li{
+	margin: 10px;
+}
+
+#header ul li a, #header button {
+	color: rgb(56, 197, 174);
+	
+}
+#header button {
+	background:transparent ;
+	border: none;
+	padding: 8%;
+	font-size: 1.25vw;	
+}
+#header button:hover 
+{
+	color: #d47a04;
+	transition: 0.2s;
+	font-size: 1.30vw;
+}
+
+
+li#go-back{
+	position:absolute;
+	bottom:5%;
+}
