@@ -1,20 +1,29 @@
 {
  
-"project-test" : [{   
-            "name": "test-nav",
-            "url": "https://raw.githubusercontent.com/TheeVoid/Javascript/main/website/index.html"    
-        },
-
-        {
-            "name": "test-nav2",
-            "url": "https://raw.githubusercontent.com/TheeVoid/Javascript/main/website/index.html"    
-        }
-
+"project-test" : 
+[
+    {   
+        "name": "test-nav",
+        "url": "https://raw.githubusercontent.com/TheeVoid/Javascript/main/website/index.html"    
+    },
+    
+    {
+        "name": "test-nav2",
+        "url": "https://raw.githubusercontent.com/TheeVoid/Javascript/main/website/index.html"    
         
+    }
+
+
+
+]
 
 
 
 
 
-    ]}
+
+
+
+
+}
 
