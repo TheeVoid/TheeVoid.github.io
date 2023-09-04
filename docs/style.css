@@ -23,6 +23,7 @@ html {
 	margin-bottom: 2ex;
 	font-family: monospace;
 	font-size: 1.25vw;
+	border: none;
 }
 
 a:link {

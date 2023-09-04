@@ -40,7 +40,7 @@ a:visited {
 }
 
 section {
-	background-color: #b701ff50;
+	background-color: #00000021;
 	width: auto; 
 	word-wrap: break-word;
 	padding: 8%;
@@ -54,10 +54,11 @@ section {
 
 
 #header {
+	border: none;
 	
 	border-right: #050505 4px solid;
 	height: 100%;
-	width: 16%;
+	width: 10%;
 	position: fixed;
 	z-index: 1;
 	top: 0;
@@ -71,8 +72,8 @@ section {
 body {
 	background-color: #ffffff85;
 	position: relative;
-	left: 15%;
-	margin-right:15%;
+	left: 9%;
+	margin-right:50%;
 	margin-top: 0%;
 	width: auto;
 	bottom: 0%;	
@@ -88,11 +89,11 @@ body {
 }
 
 #header ul li{
-	margin: px;
+	align-self: center;
 }
 
 #header ul li a, #header button {
-	color: #af0000e1;
+	color: #000000e1;
 	font-weight: 900;
 	font-size: x-large;
 	
@@ -131,8 +132,31 @@ li#go-back a {
 	padding-left: 10px;
 	padding-right: 10px;
 	min-height: 100px;
+	width: 33%;
 
 }
+
+
+.content-1 h3 {
+
+	margin-left: 3%;
+	font-size: large;
+
+
+}
+
+.content-1 a {
+
+	font-size: medium;
+
+
+}
+.content-1 p {
+
+	font-size: medium;
+
+}
+
 
 
 #iframe-bck-grnd{
@@ -149,3 +173,4 @@ li#go-back a {
 	opacity: 80%;
 
 }
+

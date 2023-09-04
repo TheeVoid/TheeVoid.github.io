@@ -9,7 +9,6 @@ function setup() {
   values = new Array(width);
   for (let i = 0; i < values.length; i++) {
     values[i] = random(height);
-    //values[i] = noise(i/100.0)*height;
   }
 }
 
@@ -41,3 +40,7 @@ function swap(arr, a, b) {
   arr[a] = arr[b];
   arr[b] = temp;
 }
+
+function windowResized(){
+    resizeCanvas(windowWidth, windowHeight);
+  }
