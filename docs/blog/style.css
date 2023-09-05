@@ -1,3 +1,13 @@
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	  -webkit-user-select: none; /* Safari */
+	   -khtml-user-select: none; /* Konqueror HTML */
+		 -moz-user-select: none; /* Old versions of Firefox */
+		  -ms-user-select: none; /* Internet Explorer/Edge */
+			  user-select: none; /* Non-prefixed version, currently
+									supported by Chrome, Edge, Opera and Firefox */
+  }
+
 :root {
 	--bgcolor: #000000;
 	--fgcolor: #999999;
@@ -99,10 +109,11 @@ body {
 
 #header button:hover 
 {
-	color: #ac6100;
+	color: #0000ff;
 	transition: 0.2s;
 	background-color: #e7e5e5;
 	padding: 0%;
+	
 }
 
 li#go-back{
