@@ -8,12 +8,12 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Expires" content="0" />
+<link rel="icon" href="data:,">
 
 
 <title>About</title>
 
-<script src="../scripts/core/controller/functions/loadRawPage.js" type="text/javascript"></script>
-
+<script src="../scripts/core/clickItem.js" type="text/javascript"></script>
 
 <link rel="stylesheet" type="text/css" href="style.css" fetchpriority="high">
 </head>
@@ -23,22 +23,26 @@
         <ul id = "listed-items">
 
 
+
+
             <li class="list-item">
-                <button href="" class="list-link" onclick="fetchRawPage()"> menu</a>
+                <button href="" id="list-link-id" class="list-link" onclick="">Home</button>
             </li>
             <li class="list-item">
-                <button href="" onclick="test()" class="list-link"> menu</a>
+                <button href="" id="list-link-id" onclick="" class="list-link">Skills</button>
             </li>
             <li class="list-item">
-                <button href="" onclick="loadHTML()" class="list-link"> menu</a>
+                <button href="" id="list-link-id" onclick="" class="list-link">Knowledge</button>
             </li>
             <li class="list-item">
-                <button href="" class="list-link"> menu</a>
+                <button href="" id="list-link-id" class="list-link">Personal</button>
             </li>
             <li class="list-item">
-                <button href="" class="list-link"> menu</a>
+                <button href="" id="list-link-id" class="list-link">Prototypes</button>
             </li>
-            
+            <li class="list-item">
+                <button href="" id="list-link-id" class="list-link">Links</button>
+            </li>
 
 
             <li class="list-item" id="go-back">
@@ -54,44 +58,73 @@
 <body>
 
 
-<script src="../scripts/core/controller/functions/loadRawPage.js" type="text/javascript"></script>
+<script src="../scripts/core/loadHTML.js" type="text/javascript"></script>
 
 
 
 <section id="content-load">
+    
+    <div class="content-1">
+
+        <button id= "select-list-item">
+            <h3>Beware</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint vero aliquid rem accusantium recusandae excepturi aperiam, culpa illum quaerat quas voluptatem debitis sit maxime quasi consequatur labore fuga temporibus esse!</p>
+            <a href="https://raw.githubusercontent.com/TheeVoid/Javascript/main/website/index.html"> odkaz </a>    
+        </button>
+
+    </div>
 
     <div class="content-1">
-        <h3>Test TEST</h3>   
-        <p unselectable="on">
-            Make the canvas run more than once while not affecting anything else, sort of like having a clear() function or like putting a background() function at the beginning of the draw() loop (in other words, would it change anything if I moved the createCanvas() function from setup() to draw()?)
-        </p>
-        <a href="https://raw.githubusercontent.com/TheeVoid/Javascript/main/website/index.html"> odkaz </a> 
+
+        <button id= "select-list-item">
+            <h3>Template</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint vero aliquid rem accusantium recusandae excepturi aperiam, culpa illum quaerat quas voluptatem debitis sit maxime quasi consequatur labore fuga temporibus esse!</p>
+            <a href="https://raw.githubusercontent.com/TheeVoid/Javascript/main/website/index.html"> odkaz </a>    
+        </button>
 
     </div>
+    
     <div class="content-1">
-        <h3>Template Name</h3><a href="https://raw.githubusercontent.com/TheeVoid/Javascript/main/website/index.html"> odkaz </a>    
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint vero aliquid rem accusantium recusandae excepturi aperiam, culpa illum quaerat quas voluptatem debitis sit maxime quasi consequatur labore fuga temporibus esse!</p>
+
+        <button id= "select-list-item">
+            <h3>Template</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint vero aliquid rem accusantium recusandae excepturi aperiam, culpa illum quaerat quas voluptatem debitis sit maxime quasi consequatur labore fuga temporibus esse!</p>
+            <a href="https://raw.githubusercontent.com/TheeVoid/Javascript/main/website/index.html"> odkaz </a>    
+        </button>
+
     </div>
+
     <div class="content-1">
-        <h3>Template Name</h3><a href="https://raw.githubusercontent.com/TheeVoid/Javascript/main/website/index.html"> odkaz </a>    
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint vero aliquid rem accusantium recusandae excepturi aperiam, culpa illum quaerat quas voluptatem debitis sit maxime quasi consequatur labore fuga temporibus esse!</p>
+
+        <button id= "select-list-item">
+            <h3>Template</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint vero aliquid rem accusantium recusandae excepturi aperiam, culpa illum quaerat quas voluptatem debitis sit maxime quasi consequatur labore fuga temporibus esse!</p>
+            <a href="https://raw.githubusercontent.com/TheeVoid/Javascript/main/website/index.html"> odkaz </a>    
+        </button>
+
     </div>
+
     <div class="content-1">
-        <h3>Template Name</h3><a href="https://raw.githubusercontent.com/TheeVoid/Javascript/main/website/index.html"> odkaz </a>    
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint vero aliquid rem accusantium recusandae excepturi aperiam, culpa illum quaerat quas voluptatem debitis sit maxime quasi consequatur labore fuga temporibus esse!</p>
+
+        <button id= "select-list-item">
+            <h3>Template</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint vero aliquid rem accusantium recusandae excepturi aperiam, culpa illum quaerat quas voluptatem debitis sit maxime quasi consequatur labore fuga temporibus esse!</p>
+            <a href="https://raw.githubusercontent.com/TheeVoid/Javascript/main/website/index.html"> odkaz </a>    
+        </button>
+
     </div>
+
     <div class="content-1">
-        <h3>Template Name</h3><a href="https://raw.githubusercontent.com/TheeVoid/Javascript/main/website/index.html"> odkaz </a>    
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint vero aliquid rem accusantium recusandae excepturi aperiam, culpa illum quaerat quas voluptatem debitis sit maxime quasi consequatur labore fuga temporibus esse!</p>
+
+        <button id= "select-list-item">
+            <h3>Template</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint vero aliquid rem accusantium recusandae excepturi aperiam, culpa illum quaerat quas voluptatem debitis sit maxime quasi consequatur labore fuga temporibus esse!</p>
+            <a href="https://raw.githubusercontent.com/TheeVoid/Javascript/main/website/index.html"> odkaz </a>    
+        </button>
+
     </div>
-    <div class="content-1">
-        <h3>Template Name</h3><a href="https://raw.githubusercontent.com/TheeVoid/Javascript/main/website/index.html"> odkaz </a>    
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint vero aliquid rem accusantium recusandae excepturi aperiam, culpa illum quaerat quas voluptatem debitis sit maxime quasi consequatur labore fuga temporibus esse!</p>
-    </div>
-    <div class="content-1">
-        <h3>Template Name</h3><a href="https://raw.githubusercontent.com/TheeVoid/Javascript/main/website/index.html"> odkaz </a>    
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint vero aliquid rem accusantium recusandae excepturi aperiam, culpa illum quaerat quas voluptatem debitis sit maxime quasi consequatur labore fuga temporibus esse!</p>
-    </div>
+
+
 
 
 
