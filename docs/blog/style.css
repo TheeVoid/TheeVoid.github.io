@@ -75,7 +75,7 @@ body {
 	background: none;
 	position: relative;
 	left: 9%;
-	margin-right:50%;
+	margin-right:9%;
 	margin-top: 0%;
 	width: auto;
 	bottom: 0%;	
@@ -144,7 +144,7 @@ li#go-back a {
 	bottom: 0;
 	right: 0;
 	width: 100%;
-	border-radius: 0%;
+	border-radius: none;
 }
 
 
@@ -180,7 +180,7 @@ li#go-back a {
 
 #iframe-bck-grnd{
 	position: absolute;
-	width: 100%;
+	width: 60%;
 	border: none;
 	z-index: -1;
 	height: 100%;
@@ -191,6 +191,16 @@ li#go-back a {
 	opacity: 80%;
 }
 
+#iframe-append{
+	position: absolute;
+	right: 0;
+	top: 0%;
+	width: 40%;
+	height: 100%;
+	border: none;
+
+
+}
 
 
 #listed-items li :hover {
