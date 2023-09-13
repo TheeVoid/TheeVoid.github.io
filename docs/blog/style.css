@@ -152,7 +152,6 @@ li#go-back a {
 
 #select-list-item:hover {
 	background-color: #ffffff;;
-
 }
 
 #select-list-item h3 {
@@ -176,6 +175,7 @@ li#go-back a {
 	text-align: left;
 	
 }
+
 .content-1 p {
 	font-size: medium;
 	padding: 10px;
@@ -191,7 +191,7 @@ li#go-back a {
 
 #content-load{
 	overflow: scroll;
-	scroll-behavior: auto;
+	scroll-behavior: initial;
 	margin-bottom: 100px;	
 }
 section {
@@ -208,3 +208,5 @@ section::-webkit-scrollbar{
 .last-in-section{
 	margin-bottom: 100px;
 }
+
+
