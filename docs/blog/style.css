@@ -190,20 +190,19 @@ li#go-back a {
 #content-load{
 	overflow: scroll;
 	scroll-behavior: auto;
-	margin-bottom: 100px;
-	
+	margin-bottom: 100px;	
 }
-
-
 section {
-
 	scrollbar-width:none;
 	-ms-overflow-style: none;
-
+	height: calc(100% - 100px);
 }
 
 section::-webkit-scrollbar{
-
 	display: none;
+}
 
+
+.last-in-section{
+	margin-bottom: 100px;
 }
