@@ -1,7 +1,8 @@
 
-async function eventListen(){
 
-document.getElementById("list-link-id").addEventListener('onclick',  console.log("Hello World!"));
+function selectProject(Name){
 
+    object.addEventListener("click", myScript);  
+    
 
-}
+} 

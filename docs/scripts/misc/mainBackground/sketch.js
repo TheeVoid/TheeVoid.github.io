@@ -13,7 +13,11 @@ function setup() {
   // For a cool effect try uncommenting this line
   // And comment out the background() line in draw
   // stroke(255, 50);
+  //
+
+  //
   clear();
+
 }
 
 function draw() {
@@ -31,11 +35,18 @@ function draw() {
     }
   }
 }
-
+/*
 function mouseReleased() {
   noiseSeed(millis());
 }
-
+*/
 function onScreen(v) {
   return v.x >= 0 && v.x <= width && v.y >= 0 && v.y <= height;
+}
+
+function windowResized(){
+
+
+  resizeCanvas(windowWidth, windowHeight);
+
 }
