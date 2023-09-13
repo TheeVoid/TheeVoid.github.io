@@ -179,6 +179,8 @@ li#go-back a {
 .content-1 p {
 	font-size: medium;
 	padding: 10px;
+	font-family: monospace;
+	text-align: left;
 }
 
 #presentation{
