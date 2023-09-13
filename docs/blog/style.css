@@ -150,7 +150,6 @@ li#go-back a {
 	border-radius: none;
 }
 
-
 #select-list-item:hover {
 	background-color: #ffffff;;
 
@@ -169,6 +168,7 @@ li#go-back a {
 .content-1 h3 {
 	margin-left: 3%;
 	font-size: large;
+	text-align: left;
 }
 
 .content-1 a {
@@ -195,13 +195,13 @@ li#go-back a {
 section {
 	scrollbar-width:none;
 	-ms-overflow-style: none;
+	width: 100%;
 	height: calc(100% - 100px);
 }
 
 section::-webkit-scrollbar{
 	display: none;
 }
-
 
 .last-in-section{
 	margin-bottom: 100px;
