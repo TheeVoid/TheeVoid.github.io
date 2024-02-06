@@ -41,6 +41,7 @@ html {
 	right: 0%;
 	top: 0%;
 	overscroll-behavior: none;
+	scroll-behavior: smooth;
 }
 
 a:link {
@@ -189,11 +190,7 @@ li#go-back a {
 	padding-bottom: 100px;
 }
 
-#content-load{
-	overflow: scroll;
-	scroll-behavior: initial;
-	margin-bottom: 100px;	
-}
+
 section {
 	scrollbar-width:none;
 	-ms-overflow-style: none;
@@ -210,3 +207,39 @@ section::-webkit-scrollbar{
 }
 
 
+.container {
+	display: flex;
+	overflow-y: auto;
+	flex-direction: column;
+	border: none #0000ff;
+	margin: 30px;
+	margin-left: 35px;
+	margin-top: 0;
+
+	position: absolute;
+	justify-content: space-evenly;
+	align-items: baseline;
+	scroll-behavior: smooth;
+
+	justify-content: center safe;	
+	align-content: space-around;
+	gap: 10px;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+.conItem{
+	border: none	 #ff00ff;
+	padding: 20px;
+	max-width: 600px;
+	background-color: #0000007a;
+	color: #dddbdb;
+	overflow: scroll;
+	border-radius: 0px;
+
+}
+
+.conItem:hover{
+	border: solid #091c8ace;
+
+}
