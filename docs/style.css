@@ -244,30 +244,14 @@ section::-webkit-scrollbar{
 	-ms-overflow-style: none;  /* IE and Edge */
 	scrollbar-width: none;  /* Firefox */
   }
-
-  .contentWrapper{
-	padding: 20px;
-	background-color: #9fc41d;
-	margin-left: 1px;
-	margin-right: 100px;
-	height: 100%;
-	margin-bottom: 0%;
-
-
-}
-
-.flexbox{
-	margin: 0%;
-	padding: 0%;
-	border: #0000ff 1px solid;
-}
-.myCanvas
-{
+.live-background{	
 	width: 40%;
 	height: 40%;
+	filter: blur(4px);
 }
-.boxItem{
-	border: #ff00ff 2px solid;
+.contentWrapper{
 	background-color: #0000ff;
-	
+	margin-left: 0.5%;
+	padding: 1%;
 }
+
