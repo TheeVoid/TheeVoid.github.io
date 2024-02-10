@@ -11,7 +11,7 @@
 :root {
 	--bgcolor: #000000;
 	--fgcolor: #999999;
-	--linkcolor: #0000ff;
+	--linkcolor: hwb(240 0% 0%);
 	--visitedcolor: #3fb1c0;
 }
 
@@ -206,40 +206,68 @@ section::-webkit-scrollbar{
 	margin-bottom: 100px;
 }
 
-
 .container {
-	display: flex;
-	overflow-y: auto;
-	flex-direction: column;
-	border: none #0000ff;
-	margin: 30px;
-	margin-left: 35px;
-	margin-top: 0;
-
-	position: absolute;
-	justify-content: space-evenly;
-	align-items: baseline;
-	scroll-behavior: smooth;
-
-	justify-content: center safe;	
-	align-content: space-around;
-	gap: 10px;
-	margin-top: 30px;
-	margin-left: 40px;
+	border: 1px none #091c8ace;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-left: 40px;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: first baseline;
+    scroll-behavior: smooth;
+    align-content: space-around;
+    gap: 10px;	
+    overflow-y: scroll;
+	max-width: 600px;
+	padding: 20px;
+	max-height: 95%;
+	color: #f0f0f0;
+}
+.conItem{
+	padding: 20px;
+	background-color: #00000096;
 }
 
-.conItem{
-	border: none	 #ff00ff;
-	padding: 20px;
-	max-width: 600px;
-	background-color: #0000007a;
-	color: #dddbdb;
-	overflow: scroll;
-	border-radius: 0px;
-
+.conItem p {
+	text-indent: 2em;
+	text-align: left;
 }
 
 .conItem:hover{
-	border: solid #091c8ace;
+}
+.container::-webkit-scrollbar {
+	display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .container {
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+  }
 
+  .contentWrapper{
+	padding: 20px;
+	background-color: #9fc41d;
+	margin-left: 1px;
+	margin-right: 100px;
+	height: 100%;
+	margin-bottom: 0%;
+
+
+}
+
+.flexbox{
+	margin: 0%;
+	padding: 0%;
+	border: #0000ff 1px solid;
+}
+.myCanvas
+{
+	width: 40%;
+	height: 40%;
+}
+.boxItem{
+	border: #ff00ff 2px solid;
+	background-color: #0000ff;
+	
 }
